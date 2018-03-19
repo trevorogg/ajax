@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     function gifDisplay() {
         var topic = $(this).attr('topic');
-        var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + topic + "&api_key=q8DzXAzr51yQTBfpkVxh318Zp856sWx2&limit=10";
+        var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + topic + "&api_key=q8DzXAzr51yQTBfpkVxh318Zp856sWx2&limit=10";
 
         $.ajax({
             url: queryURL,
